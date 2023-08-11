@@ -25,7 +25,6 @@
   
   <remote name="custompatch"
           fetch="https://github.com/Antoo246/"
-          revision="thirteen" />
 
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
