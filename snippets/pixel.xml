@@ -25,7 +25,7 @@
   
   <remote name="custompatch"
           fetch="https://github.com/Antoo246/"
-
+  >
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
