@@ -33,7 +33,7 @@
 
         <remote name="c.s_anto426-botan"
                 fetch="https://github.com/Antoo246/"
-                revision="HEAD" />
+                revision="AI" />
 
 
         <!-- External repos -->
