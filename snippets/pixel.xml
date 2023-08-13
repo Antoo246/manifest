@@ -25,11 +25,13 @@
 
         <remote name="custompatchn"
                 fetch="https://github.com/Antoo246/"
-                revision="thirteen-plus" />
+                revision="thirteen" />
 
         <remote name="custompatchp"
                 fetch="https://github.com/Antoo246/"
                 revision="thirteen-plus" />
+
+
         <!-- External repos -->
         <project path="external/avb" name="external_avb" remote="pixel" />
         <project path="external/boringssl" name="external_boringssl" remote="pixel" />
