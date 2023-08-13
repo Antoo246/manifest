@@ -23,17 +23,13 @@
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
                 revision="thirteen" />
 
-        <remote name="c.s_anto426"
+        <remote name="custompatchn"
                 fetch="https://github.com/Antoo246/"
                 revision="thirteen" />
 
-        <remote name="c.s_anto426-plus"
+        <remote name="custompatchp"
                 fetch="https://github.com/Antoo246/"
                 revision="thirteen-plus" />
-
-        <remote name="c.s_anto426-gen"
-                fetch="https://github.com/Antoo246/"
-                revision="HEAD" />
 
 
         <!-- External repos -->
@@ -66,7 +62,7 @@
         <!-- General repos -->
         <project path="art" name="art" remote="pixel" />
         <project path="bionic" name="bionic" remote="pixel" />
-        <project path="build/make" name="build" remote="c.s_anto426">
+        <project path="build/make" name="build" remote="custompatchn">
                 <copyfile src="core/root.mk" dest="Makefile" />
                 <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
                 <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -80,7 +76,7 @@
                 <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
         </project>
         <project path="build/blueprint" name="build_blueprint" remote="pixel" />
-        <project path="bootable/recovery" name="bootable_recovery" remote="c.s_anto426" />
+        <project path="bootable/recovery" name="bootable_recovery" remote="custompatchn" />
         <project path="development" name="development" remote="pixel" />
         <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
         <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
