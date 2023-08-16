@@ -31,8 +31,8 @@
                 fetch="https://github.com/Antoo246/"
                 revision="thirteen-plus" />
 
-        <remote name="c.s_anto426-botan"
-                fetch="https://github.com/Antoo246/"
+        <remote name="c.s_anto426-botan-gitlab"
+                fetch="https://gitlab.com/anto426/"
                 revision="AI" />
 
 
