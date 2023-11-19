@@ -37,7 +37,7 @@
     review="gerrit.pixelexperience.org" />
 
   <remote name="anto426-gitlab-boot"
-    fetch="https://gitlab.com/anto426/bootanimations"
+    fetch="https://gitlab.com/anto426/"
     revision="AI"
     review="gerrit.pixelexperience.org" />
 
