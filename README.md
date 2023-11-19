@@ -1,11 +1,11 @@
-# Pixel Experience #
+# Anto Aosp #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init -u https://github.com/Antoo246/manifest -b thirteen-plus
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -25,8 +25,4 @@ $ lunch aosp_$device-userdebug
 $ mka bacon -jX
 ```
 
-### Submitting Patches ###
 
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
