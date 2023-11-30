@@ -1,4 +1,4 @@
-# Pixel Experience #
+# Anto Aosp #
 
 ### Sync ###
 
@@ -25,8 +25,3 @@ $ lunch aosp_$device-userdebug
 $ mka bacon -jX
 ```
 
-### Submitting Patches ###
-
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
